@@ -1,0 +1,52 @@
+*{
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color : #272D38;
+}
+
+.hero {
+  margin-top: clamp(2rem, 7vw, 99px);
+}
+
+.hero-content h1 {
+    max-width: 540px !important;
+}
+
+.hero-content p {
+    max-width: 525px;
+    min-height: 56px;
+}
+
+.fs-18 {
+    font-size: 18px !important;
+}
+
+.custom-color {
+    color: var(--text-color) !important;
+}
+
+.p-31-10 {
+    padding: 10px 31px;
+}
+.btn-primary {
+    background-color: #8EADD5 !important;
+    --bs-btn-border-color:transparent !important;
+}
+
+.mt-40 {
+    margin-top: 40px !important;
+}
+@media (max-width: 768px) {
+    .navbar h1 {
+        font-size: calc(1rem * 0.875) !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-xl {
+        max-width: 1064px;
+    }
+}
