@@ -1,52 +1,111 @@
-*{
+* {
     font-family: "Inter", sans-serif;
     box-sizing: border-box;
 }
 
 :root {
-    --text-color : #272D38;
-}
-
-.hero {
-  margin-top: clamp(2rem, 7vw, 99px);
-}
-
-.hero-content h1 {
-    max-width: 540px !important;
-}
-
-.hero-content p {
-    max-width: 525px;
-    min-height: 56px;
-}
-
-.fs-18 {
-    font-size: 18px !important;
+    --text-color: #272d38;
 }
 
 .custom-color {
     color: var(--text-color) !important;
 }
 
-.p-31-10 {
-    padding: 10px 31px;
-}
-.btn-primary {
-    background-color: #8EADD5 !important;
-    --bs-btn-border-color:transparent !important;
+.bg-color {
+    background: #F6F6F6;
 }
 
-.mt-40 {
-    margin-top: 40px !important;
+.text-grey {
+    color: #667085;
 }
-@media (max-width: 768px) {
-    .navbar h1 {
-        font-size: calc(1rem * 0.875) !important;
+.fs-18 {
+    font-size: 18px !important;
+}
+
+.fs-14-16{
+    font-size: clamp(0.875rem, 0.831rem + 0.188vw, 1rem);}
+
+.btn-primary {
+    background-color: #8eadd5 !important;
+    --bs-btn-border-color: transparent !important;
+}
+
+.navbar-brand {
+    font-size: 0.875rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler:focus-visible {
+    outline: 2px solid #8eadd5;
+}
+
+.hero {
+    margin-top: clamp(2rem, 7vw, 99px);
+}
+
+.hero-content h1 {
+    max-width: 540px;
+    font-size: 40px;
+}
+
+.hero-content p {
+    max-width: 525px;
+    min-height: 56px;
+    font-size: 16px;
+}
+
+.hero-content .btn {
+    margin-top: 1.5rem;
+    padding: 8px 24px;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.logos {
+    max-width: 915px;
+}
+
+.logos img {
+    height: 24px;
+}
+
+@media (min-width: 992px) {
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+
+    .hero-content h1 {
+        font-size: 4rem;
+    }
+
+    .hero-content p {
+        font-size: 18px;
+    }
+
+    .hero-content .btn {
+        margin-top: 40px;
+        padding: 10px 31px;
+    }
+
+    .hero img {
+        width: auto;
+        max-width: 31.25vw;
+    }
+
+        .logos img {
+        height: 48px; 
     }
 }
 
 @media (min-width: 1200px) {
     .container-xl {
-        max-width: 1064px;
+        max-width: calc(1064px + 1.5rem);
     }
 }
