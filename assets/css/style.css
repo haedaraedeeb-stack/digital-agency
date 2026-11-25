@@ -23,7 +23,9 @@
 }
 
 .fs-14-16{
-    font-size: clamp(0.875rem, 0.831rem + 0.188vw, 1rem);}
+    font-size: clamp(0.875rem, 0.831rem + 0.188vw, 1rem);
+    line-height: 27.5px;
+}
 
 .btn-primary {
     background-color: #8eadd5 !important;
@@ -31,7 +33,7 @@
 }
 
 .navbar-brand {
-    font-size: 0.875rem;
+    font-size: 0.875rem !important;
 }
 
 .navbar-toggler:focus {
@@ -62,9 +64,9 @@
     padding: 8px 24px;
 }
 
-.hero img {
+.w-img {
     width: 100%;
-    max-width: 100%;
+    max-width: 450px;
     height: auto;
 }
 
@@ -74,6 +76,20 @@
 
 .logos img {
     height: 24px;
+}
+
+.lh-27 {
+    line-height: 1.71875;
+}
+
+.brand-p {
+    max-width: 392px;
+    min-width: 380px;
+}
+
+.arrow-responsive {
+    transform: rotate(90deg);
+    
 }
 
 @media (min-width: 992px) {
@@ -101,6 +117,10 @@
 
         .logos img {
         height: 48px; 
+    }
+
+    .arrow-responsive {
+        transform: none;
     }
 }
 
