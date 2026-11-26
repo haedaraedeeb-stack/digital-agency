@@ -63,9 +63,9 @@
     font-size: 16px;
 }
 
-.hero-content .btn {
+.btn-p-m {
     margin-top: 1.5rem;
-    padding: 8px 24px;
+    padding: 10px 31px;
 }
 
 .w-img {
@@ -123,6 +123,21 @@
     background-color: #8EADD5; 
 }
 
+.site-footer { 
+    padding: 105px 0 18px; 
+}
+.footer-inner { 
+    max-width: 1097px; 
+}
+.footer-copy { 
+    margin-top: 110px; 
+}
+
+main {
+  gap: 120px;
+  margin-block: 120px;
+}
+
 @media (min-width: 992px) {
     .navbar-brand {
         font-size: 1.25rem;
@@ -153,6 +168,10 @@
     .arrow-responsive {
         transform: none;
     }
+      main {
+    gap: 136px;
+    margin-block: 136px;
+  }
 }
 
 @media (min-width: 1200px) {
