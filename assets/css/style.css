@@ -18,6 +18,7 @@
 .text-grey {
     color: #667085;
 }
+
 .fs-18 {
     font-size: 18px !important;
 }
@@ -26,7 +27,7 @@
     line-height: 1.3 !important;
 }
 
-.fs-14-16{
+.fs-14-16 {
     font-size: clamp(0.875rem, 0.831rem + 0.188vw, 1rem);
     line-height: 27.5px;
 }
@@ -90,9 +91,10 @@
     max-width: 392px;
     min-width: 380px;
 }
+
 .arrow-responsive {
     transform: rotate(90deg);
-    
+
 }
 
 .carousel-div-w {
@@ -102,6 +104,7 @@
 .card-h {
     height: 334px;
 }
+
 .carousel-container {
     max-width: 374px !important;
 }
@@ -110,32 +113,36 @@
     width: 129px !important;
     height: auto !important;
 }
+
 .carousel-indicators [data-bs-target] {
-  width: 10px;
-  height: 10px;
-  border: 3px solid #8EADD5;
-  border-radius: 50%;
-  background-color: transparent;
-}
-.carousel-indicators .active { 
-      width: 18px;
-  height: 18px;
-    background-color: #8EADD5; 
+    width: 10px;
+    height: 10px;
+    border: 3px solid #8EADD5;
+    border-radius: 50%;
+    background-color: transparent;
 }
 
-.site-footer { 
-    padding: 105px 0 18px; 
+.carousel-indicators .active {
+    width: 18px;
+    height: 18px;
+    background-color: #8EADD5;
 }
-.footer-inner { 
-    max-width: 1097px; 
+
+.site-footer {
+    padding: 105px 0 18px;
 }
-.footer-copy { 
-    margin-top: 110px; 
+
+.footer-inner {
+    max-width: 1097px;
+}
+
+.footer-copy {
+    margin-top: 110px;
 }
 
 main {
-  gap: 120px;
-  margin-block: 120px;
+    gap: 120px;
+    margin-block: 120px;
 }
 
 @media (min-width: 992px) {
@@ -161,17 +168,37 @@ main {
         max-width: 31.25vw;
     }
 
-        .logos img {
-        height: 48px; 
+    .hero-blob {
+        width: 679px;
+        height: 679px;
+        top: -324px;
+        left: -221px;
+        background: #8EADD53D;
+        filter: blur(100px);
+    }
+
+    .blob-right {
+        width: 679px;
+        height: 679px;
+        top: 1231px;
+        right: -438px;
+        background: #8EADD53D;
+        filter: blur(100px);
+
+    }
+
+    .logos img {
+        height: 48px;
     }
 
     .arrow-responsive {
         transform: none;
     }
-      main {
-    gap: 136px;
-    margin-block: 136px;
-  }
+
+    main {
+        gap: 136px;
+        margin-block: 136px;
+    }
 }
 
 @media (min-width: 1200px) {
