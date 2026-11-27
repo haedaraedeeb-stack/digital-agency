@@ -145,23 +145,25 @@ main {
     margin-block: 120px;
 }
 
-    .hero-blob {
-        width: 679px;
-        height: 679px;
-        top: -324px;
-        left: -221px;
-        background: #8EADD53D;
-        filter: blur(100px);
-    }
+.hero-blob {
+    width: 679px;
+    height: 679px;
+    top: -324px;
+    left: -221px;
+    background: #8EADD53D;
+    filter: blur(100px);
+}
 
-    .blob-right {
-        width: 679px;
-        height: 679px;
-        top: 1231px;
-        right: -438px;
-        background: #8EADD53D;
-        filter: blur(100px);
-    }
+
+
+.blob-right {
+    width: 679px;
+    height: 679px;
+    top: 1231px;
+    right: -438px;
+    background: #8EADD53D;
+    filter: blur(100px);
+}
 
 @media (min-width: 992px) {
     .navbar-brand {
